@@ -1,0 +1,28 @@
+{
+  "name": "ask-the-audience",
+  "version": "1.0.0",
+  "description": "Audience asking",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danjwinter/ask-the-audience.git"
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "Dan Winter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danjwinter/ask-the-audience/issues"
+  },
+  "homepage": "https://github.com/danjwinter/ask-the-audience#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.11.1",
+    "socket.io": "^1.4.5"
+  }
+}
